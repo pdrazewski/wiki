@@ -8,3 +8,8 @@ How Foundation 5 handles IE<9 support <br><br>
 "//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"<br>
 <br><br>
 http://foundation.zurb.com/forum/posts/241-foundation-5-and-ie8
+
+==
+Guidelines
+==
+http://cssguidelin.es/#support-the-guidelines
