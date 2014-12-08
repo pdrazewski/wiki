@@ -9,6 +9,6 @@ How Foundation 5 handles IE lte9 support
 http://foundation.zurb.com/forum/posts/241-foundation-5-and-ie8
 
 ==
-Guidelines
+Guidelines CSS Wizardy
 ==
 http://cssguidelin.es/#support-the-guidelines
