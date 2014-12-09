@@ -17,3 +17,8 @@ http://cssguidelin.es/#support-the-guidelines
 jQuery presentation
 ==
 http://www.slideshare.net/dcneiner/jquery-nuts-bolts-and-bling
+
+==
+HTML5 template boilerplate
+==
+https://github.com/dcneiner/html5-site-template
