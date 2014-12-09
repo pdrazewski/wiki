@@ -12,3 +12,8 @@ http://foundation.zurb.com/forum/posts/241-foundation-5-and-ie8
 Guidelines CSS Wizardy
 ==
 http://cssguidelin.es/#support-the-guidelines
+
+==
+jQuery presentation
+==
+http://www.slideshare.net/dcneiner/jquery-nuts-bolts-and-bling
