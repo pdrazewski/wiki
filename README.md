@@ -55,3 +55,17 @@ draft
 25. browser bottlenecks
 26. ajax requests handling
 27. use devtools to inspect enp.APP
+
+
+==
+todo & current
+==
+
+1. vue.js
+2. react
+3. meteor.js
+4. electron
+5. jenkins
+6. es6
+7. mongodb
+8. redux
