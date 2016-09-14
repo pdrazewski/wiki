@@ -47,6 +47,21 @@ draft
 17. add callbacks to methods?
 18. use promises?
 19. most uses native version of jQuery => forum
+<<<
+pobranie kolekcji elementów z dom
+=>
+podpięcie eventów
+=>
+chodzenie po drzewie dom
+=>
+pobieranie informacji z data atrybutów
+=>
+iterowanie po kolekcjach
+=>
+ajax requests (ok)
+=>
+pobieranie informacji o stylach elementów / pozycjach
+>>>
 20. use jasmine for unit tests
 21. use nightwatch for e2e test
 22. use _defaults to merge defaults object
@@ -55,6 +70,7 @@ draft
 25. browser bottlenecks
 26. ajax requests handling
 27. use devtools to inspect enp.APP
+
 
 
 ==
