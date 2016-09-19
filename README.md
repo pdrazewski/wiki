@@ -115,3 +115,14 @@ patterns
 20. Builder Pattern
 21. Composite Pattern
 22. Adapter Pattern
+
+
+==
+anypatterns
+==
+
+1. Polluting the global namespace by defining a large number of variables in the global context
+2. Passing strings rather than functions to either setTimeout or setInterval as this triggers the use of eval() internally.
+3. Modifying the Object class prototype (this is a particularly bad anti-pattern)
+4. Using JavaScript in an inline form as this is inflexible
+5. The use of document.write where native DOM alternatives such as document.createElement are more appropriate. document.write has been grossly misused over the years and has quite a few disadvantages including that if it's executed after the page has been loaded it can actually overwrite the page we're on, whilst document.createElement does not. We can see here for a live example of this in action. It also doesn't work with XHTML which is another reason opting for more DOM-friendly methods such as document.createElement is favorable.
