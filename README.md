@@ -85,3 +85,33 @@ todo & current
 6. es6
 7. mongodb
 8. redux
+
+
+==
+patterns
+==
+
+1. Namespacing Pattern
+2. Dependency declaration pattern
+3. Constructor Pattern
+2. Module Pattern
+3. Revealing Module Pattern
+4. Singleton Pattern
+5. Observer Pattern (pub/sub)
+6. Mediator Pattern
+7. Prototype Pattern
+8. Command Pattern
+9. Facade Pattern
+10. Factory Pattern
+11. Mixin Pattern
+12. Decorator Pattern
+13. Flyweight Pattern
+14. Sandbox Pattern
+15. AMD
+16. Common JS
+17. jQuery Plugin Design Patterns
+18. Lazy Initialization Pattern
+19. Proxy Pattern
+20. Builder Pattern
+21. Composite Pattern
+22. Adapter Pattern
