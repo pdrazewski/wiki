@@ -118,7 +118,7 @@ patterns
 
 
 ==
-anypatterns
+antipatterns
 ==
 
 1. Polluting the global namespace by defining a large number of variables in the global context
