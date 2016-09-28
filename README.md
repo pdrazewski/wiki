@@ -1,3 +1,27 @@
+https://azurelogic.com/posts/web-scraping-with-nightmare-js/
+
+var Nightmare = require('nightmare');
+var nightmare = Nightmare({ show: true })
+
+nightmare
+  .viewport(1600, 1200)
+  .goto('http://deezee.pl')
+  .click('.b-header_searchLabel')
+  .type('form[action*="/search"] #query_querystring', 'botki')
+  .click('.m-search_submit')
+  .wait(1500)
+  .screenshot('deezee.png')
+  .end()
+  .then(function (result) {
+    console.log(result)
+  })
+  .catch(function (error) {
+    console.error('Search failed:', error);
+  });
+
+
+
+
 How Foundation 5 handles IE lte9 support
 ====
 
