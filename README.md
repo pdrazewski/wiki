@@ -1,24 +1,3 @@
-https://azurelogic.com/posts/web-scraping-with-nightmare-js/
-
-var Nightmare = require('nightmare');
-var nightmare = Nightmare({ show: true })
-
-nightmare
-  .viewport(1600, 1200)
-  .goto('http://deezee.pl')
-  .click('.b-header_searchLabel')
-  .type('form[action*="/search"] #query_querystring', 'botki')
-  .click('.m-search_submit')
-  .wait(1500)
-  .screenshot('deezee.png')
-  .end()
-  .then(function (result) {
-    console.log(result)
-  })
-  .catch(function (error) {
-    console.error('Search failed:', error);
-  });
-
 
 
 
@@ -150,3 +129,10 @@ antipatterns
 3. Modifying the Object class prototype (this is a particularly bad anti-pattern)
 4. Using JavaScript in an inline form as this is inflexible
 5. The use of document.write where native DOM alternatives such as document.createElement are more appropriate. document.write has been grossly misused over the years and has quite a few disadvantages including that if it's executed after the page has been loaded it can actually overwrite the page we're on, whilst document.createElement does not. We can see here for a live example of this in action. It also doesn't work with XHTML which is another reason opting for more DOM-friendly methods such as document.createElement is favorable.
+
+
+
+===
+http://intridea.github.io/sketch.js/lib/sketch.js
+https://github.com/niklasvh/html2canvas
+http://www.kubilayerdogan.net/html2canvas-take-screenshot-of-web-page-and-save-it-to-server-javascript-and-php/
