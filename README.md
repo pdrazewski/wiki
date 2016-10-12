@@ -146,4 +146,4 @@ apps
 - freshman (employees manager)
 - drawerr (errors drawer)
 - camper (frontend framework)
-
+- mazeboard (dashboard app)
