@@ -136,3 +136,14 @@ antipatterns
 http://intridea.github.io/sketch.js/lib/sketch.js
 https://github.com/niklasvh/html2canvas
 http://www.kubilayerdogan.net/html2canvas-take-screenshot-of-web-page-and-save-it-to-server-javascript-and-php/
+
+
+==
+apps
+==
+
+- editor
+- freshman (employees manager)
+- drawerr (errors drawer)
+- camper (frontend framework)
+
